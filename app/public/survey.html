@@ -235,12 +235,14 @@
         };
         console.log(newFriendData)
 
+        // GRABS THE ONCLICK DATA AND SENDS IT TO THE GIVEN URL "/api.friends"
+        // ALERTS THE USER WHEN DATA IS SUBMITTED
         $.post("/api/friends", newFriendData,
             function (data) {
                 if (data) {
                     alert("Your input was successful!")
                 }
-
+                // CLEARS INPUT WHEN SUBMITTING DATA
                 $(".friendName").val(""),
                     $(".friendPicture").val(""),
                     $("#inputGroupSelect2").val(""),

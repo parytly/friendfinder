@@ -1,4 +1,5 @@
-// DATA THAT HOLDS THE USE DATA INPUT
+
+// DATA THAT HOLDS THE USE INPUT
 
 var friendsArray = [
     {
@@ -16,5 +17,5 @@ var friendsArray = [
         question10: 1
     }
 ]
-
+// EXPORT THE ARRAY. MAKES THE ARRAY ACCESSIBLE TO OTHER FILES USING REQUIRE.
 module.exports = friendsArray

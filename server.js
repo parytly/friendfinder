@@ -6,7 +6,9 @@ var PORT = process.env.PORT || 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// ROUTES
+// ROUTER
+// DIRECTS THE SERVER TO RESPOND WHEN USER VISITS/ REQUEST DATA FROM THE URL
+// apiRoutes.js --- htmlRoutes.jss
 require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
