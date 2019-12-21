@@ -19,6 +19,8 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <title>Friend Finder</title>
 </head>
 
@@ -33,14 +35,14 @@
             <div class="input-group-prepend">
                 <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
             </div>
-            <input type="text" class="form-control" aria-label="Sizing example input"
+            <input type="text" class="form-control friendName" aria-label="Sizing example input"
                 aria-describedby="inputGroup-sizing-default">
         </div>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
                 <span class="input-group-text" id="inputGroup-sizing-default">Link to Image</span>
             </div>
-            <input type="text" class="form-control" aria-label="Sizing example input"
+            <input type="text" class="form-control friendPicture" aria-label="Sizing example input"
                 aria-describedby="inputGroup-sizing-default">
         </div>
     </div>
@@ -52,9 +54,9 @@
         <p>Your mind is always buzzing with unexplored ideas and plans</p>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
-                <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                <label class="input-group-text" for="inputGroupSelect1">Options</label>
             </div>
-            <select class="custom-select" id="inputGroupSelect01">
+            <select class="custom-select" id="inputGroupSelect1">
                 <option selected>Choose...</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -67,9 +69,9 @@
         <p>Your mind is always buzzing with unexplored ideas and plans</p>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
-                <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                <label class="input-group-text" for="inputGroupSelect2">Options</label>
             </div>
-            <select class="custom-select" id="inputGroupSelect01">
+            <select class="custom-select" id="inputGroupSelect2">
                 <option selected>Choose...</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -82,9 +84,9 @@
         <p>Your mind is always buzzing with unexplored ideas and plans</p>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
-                <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                <label class="input-group-text" for="inputGroupSelect3">Options</label>
             </div>
-            <select class="custom-select" id="inputGroupSelect01">
+            <select class="custom-select" id="inputGroupSelect3">
                 <option selected>Choose...</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -97,9 +99,9 @@
         <p>Your mind is always buzzing with unexplored ideas and plans</p>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
-                <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                <label class="input-group-text" for="inputGroupSelect4">Options</label>
             </div>
-            <select class="custom-select" id="inputGroupSelect01">
+            <select class="custom-select" id="inputGroupSelect4">
                 <option selected>Choose...</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -112,9 +114,9 @@
         <p>Your mind is always buzzing with unexplored ideas and plans</p>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
-                <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                <label class="input-group-text" for="inputGroupSelect5">Options</label>
             </div>
-            <select class="custom-select" id="inputGroupSelect01">
+            <select class="custom-select" id="inputGroupSelect5">
                 <option selected>Choose...</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -127,9 +129,9 @@
         <p>Your mind is always buzzing with unexplored ideas and plans</p>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
-                <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                <label class="input-group-text" for="inputGroupSelect6">Options</label>
             </div>
-            <select class="custom-select" id="inputGroupSelect01">
+            <select class="custom-select" id="inputGroupSelect6">
                 <option selected>Choose...</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -142,9 +144,9 @@
         <p>Your mind is always buzzing with unexplored ideas and plans</p>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
-                <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                <label class="input-group-text" for="inputGroupSelect7">Options</label>
             </div>
-            <select class="custom-select" id="inputGroupSelect01">
+            <select class="custom-select" id="inputGroupSelect7">
                 <option selected>Choose...</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -157,9 +159,9 @@
         <p>Your mind is always buzzing with unexplored ideas and plans</p>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
-                <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                <label class="input-group-text" for="inputGroupSelect8">Options</label>
             </div>
-            <select class="custom-select" id="inputGroupSelect01">
+            <select class="custom-select" id="inputGroupSelect8">
                 <option selected>Choose...</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -172,9 +174,9 @@
         <p>Your mind is always buzzing with unexplored ideas and plans</p>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
-                <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                <label class="input-group-text" for="inputGroupSelect9">Options</label>
             </div>
-            <select class="custom-select" id="inputGroupSelect01">
+            <select class="custom-select" id="inputGroupSelect9">
                 <option selected>Choose...</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -187,9 +189,9 @@
         <p>Your mind is always buzzing with unexplored ideas and plans</p>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
-                <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                <label class="input-group-text" for="inputGroupSelect10">Options</label>
             </div>
-            <select class="custom-select" id="inputGroupSelect01">
+            <select class="custom-select" id="inputGroupSelect10">
                 <option selected>Choose...</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -198,13 +200,58 @@
                 <option value="5">5 (Strongly Agree)</option>
             </select>
         </div>
+        <button type="button" class="btn btn-primary submit">Submit</button>
     </div>
+
+
     <br>
     <div class="container">
         <hr>
-        <a href="">API Friends List</a> <span> | </span> <a href="">Git Repo</a>
+        <a href="/api/friends">API Friends List</a> <span> | </span> <a href="">Git Repo</a>
     </div>
-
+    <br>
 </body>
 
 </html>
+
+<!-- JS TO GRAB THE USER INPUT -->
+<script type="text/javascript">
+    $(".submit").on("click", function (event) {
+        event.preventDefault();
+
+        var newFriendData = {
+            friendName: $(".friendName").val(),
+            friendImage: $(".friendPicture").val(),
+            question1: $("#inputGroupSelect1").val(),
+            question2: $("#inputGroupSelect2").val(),
+            question3: $("#inputGroupSelect3").val(),
+            question4: $("#inputGroupSelect4").val(),
+            question5: $("#inputGroupSelect5").val(),
+            question6: $("#inputGroupSelect6").val(),
+            question7: $("#inputGroupSelect7").val(),
+            question8: $("#inputGroupSelect8").val(),
+            question9: $("#inputGroupSelect9").val(),
+            question10: $("#inputGroupSelect10").val()
+        };
+        console.log(newFriendData)
+
+        $.post("/api/friends", newFriendData,
+            function (data) {
+                if (data) {
+                    alert("Your input was successful!")
+                }
+
+                $(".friendName").val(""),
+                    $(".friendPicture").val(""),
+                    $("#inputGroupSelect2").val(""),
+                    $("#inputGroupSelect3").val(""),
+                    $("#inputGroupSelect4").val(""),
+                    $("#inputGroupSelect5").val(""),
+                    $("#inputGroupSelect6").val(""),
+                    $("#inputGroupSelect7").val(""),
+                    $("#inputGroupSelect8").val(""),
+                    $("#inputGroupSelect9").val(""),
+                    $("#inputGroupSelect10").val("")
+            })
+    })
+</script>
